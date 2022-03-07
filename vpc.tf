@@ -14,7 +14,9 @@ provider "google" {
 }
 
 
-
+data "google_compute_network" "network" {
+  name = "vpc-network"
+}
 # VPC
 
 
