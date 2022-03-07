@@ -1,5 +1,5 @@
 variable "project_id" {
-  description = "eloquent-marker-338005"
+  description = "pjt-an3-dev-vm"
 }
 
 variable "region" {
@@ -9,7 +9,7 @@ variable "region" {
 provider "google" {
   project = var.project_id
   region  = var.region
-  credentials = file("/var/lib/jenkins/eloquent-marker-338005-1fa6b785f519.json")
+  credentials = file("/var/lib/jenkins/pjt-an3-dev-vm-8b31a81db7eb.json")
   #credentials = file("C:/key/pjt-an3-gketest-dev-78cdd3d69f38.json")
 }
 
