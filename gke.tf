@@ -54,7 +54,7 @@ resource "google_container_node_pool" "primary_nodes" {
   
    node_locations = [
     "asia-northeast3-a", 
-    "asia-northeast3-b"
+    "asia-northeast3-c"
   ]
 
   node_config {
